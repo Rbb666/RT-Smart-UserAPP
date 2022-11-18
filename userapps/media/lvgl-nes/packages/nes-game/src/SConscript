@@ -1,0 +1,12 @@
+# RT-Thread building script for bridge
+
+import os
+from building import *
+
+objs = []
+cwd  = GetCurrentDir()
+
+objs = objs + SConscript(cwd + '/nes/SConscript')
+objs = objs + SConscript(cwd + '/file_explorer/SConscript')
+
+Return('objs')
