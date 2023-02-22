@@ -11,8 +11,6 @@
 #include <lvgl.h>
 #include <rtthread.h>
 
-#include "nes_simple_test.h"
-
 #define DBG_TAG "LVGL"
 #define DBG_LVL DBG_INFO
 #include <rtdbg.h>
@@ -42,7 +40,7 @@ int main(void)
 #endif /* LV_USE_LOG */
     lv_init();
     lv_port_disp_init();
-    lv_port_indev_init();
+    // lv_port_indev_init();
     lv_user_gui_init();
 
     /* handle the tasks of LVGL */

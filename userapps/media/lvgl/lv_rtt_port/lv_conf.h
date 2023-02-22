@@ -14,6 +14,7 @@
 #define LV_COLOR_16_SWAP    1
 #define LV_COLOR_DEPTH      32
 #define LV_USE_PERF_MONITOR 1
+#define LV_DISP_DEF_REFR_PERIOD 20  /*[ms]*/
 
 /* music player demo */
 #define LV_USE_DEMO_RTT_MUSIC       1
