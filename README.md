@@ -1,5 +1,5 @@
 # RT-Smart-UserApp
-> RT-Smart 用户态程序仓库
+> RT-Smart 用户态 LVGL 程序仓库
 
 ```
 userapps
