@@ -10,11 +10,5 @@ userapps
 |   |    ├── packages
 |   |    ├── pkg_config.h
 |   |    └── SConscript
-│   ├── lvgl-nes
-|        ├── lv_rtt_port
-|        ├── SConscript
-|        ├── packages
-|        ├── pkg_config.h
-|        └── SConscript
 ```
 
