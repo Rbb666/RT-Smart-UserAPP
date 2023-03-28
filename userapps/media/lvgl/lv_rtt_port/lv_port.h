@@ -5,7 +5,7 @@
  *
  * Change Logs:
  * Date           Author       Notes
- * 2022-10-29     Rbb666       The first version
+ * 2023-03-28     Rbb666       The first version
  */
 
 #ifndef LV_PORT_H__
@@ -13,7 +13,7 @@
 
 #include <rtthread.h>
 
-#define RT_DEVICE_CTRL_BASE(Type)        (RT_Device_Class_##Type * 0x100)
+#define RT_DEVICE_CTRL_BASE(Type)        ((RT_Device_Class_##Type + 1) * 0x100)
 
 /**
  * graphic device control command
